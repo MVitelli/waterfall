@@ -1,4 +1,5 @@
 import { PlayerBoard } from "../components/player-board.ts";
+import { ResourceAmount } from "../components/resource.ts";
 import { Action } from "../game/action.ts";
 
 export class Player {
@@ -10,11 +11,12 @@ export class Player {
     public actions: Action[]
   ) {}
 
-  addResource(resource: string, amount: number) {
-    if (!this.resources[resource]) {
-      this.resources[resource] = 0;
+  gain(resource: ResourceAmount) {
+    const [resourceType, amount] = resource;
+    if (!this.resources[resourceType]) {
+      this.resources[resourceType] = 0;
     }
-    this.resources[resource] += amount;
+    this.resources[resourceType] += amount;
   }
 
   getResource(resource: string): number {

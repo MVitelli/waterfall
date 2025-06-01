@@ -20,9 +20,13 @@
 
 ### Main board actions
 
-1.
-2.
-3.
+1. Turn order change.
+2. Market places.
+3. Environment track: pay resources to climb.
+4. Exchange action: resources exchanges.
+5. Production action place. At the end of this action, you may also do an "exchange action".
+6. Common objective places (3 or more places): player will race for finishing different objectives (there's a pool). Whenever it's completed, the player most collaborative gets the prize.
+   It could be a track advancement, passive production benefit, a tile, etc. There is a minor reward for the other participants.
 
 ### Player board actions
 
@@ -39,6 +43,14 @@
 
 ---
 
+## Mechanics TBD
+
+1. Whenever a player skips its turn, the colocation cost increases.
+2. Solve tile activation in a different phase than worker placement.
+3. Provost figure (Caylus), a marker that can be moved by all the players and can disable certain tiles to be triggered.
+
+---
+
 ## Excalidraw
 
-https://excalidraw.com/new#json=h3mq6UQ49gn5SonxnSoc5,imW_5B22Yp_IMrdJhPGnYg
+https://excalidraw.com/#json=jbJqpTBhpE_vGDt9nrrLt,mjP3h1D3xFtIFx09ai7G9g
